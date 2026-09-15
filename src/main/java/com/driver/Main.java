@@ -2,10 +2,9 @@ package com.driver;
 
 public class Main {
     public static void main(String[] args) {
-        RWOnly r = new RWOnly();
+        RWOnly obj = new RWOnly();
 
-        r.setter("Durvesh kumar");
-
-        System.out.println(r.getter());
+        obj.setName("Durvesh Kumar");
+        System.out.println(obj.getName());
     }
 }
